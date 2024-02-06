@@ -1,2 +1,71 @@
 
 /* Your CSS Code here. */
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .image{
+    position: absolute;
+    opacity: 70%;
+    z-index: -1;
+    top: 0;
+  }
+  #header{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+  }
+  #header>h1{
+    margin-top: 0;
+  }
+
+  nav{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: red; */
+    margin-top: 5px;
+  }
+  #nav-actor, #nav-quotes {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+  }
+
+  #summary{
+    color: red;
+    /* background-color: red; */
+    margin: 50px;
+    font-size: 24px;
+  }
+
+  #rating{
+    display: flex;
+    margin: 50px;
+    align-items: center;
+    position: relative;
+  }
+
+  #rating>p{
+    margin-right: 20px;
+    color: black;
+    font-size: 24px;
+  }
+
+  .checked {
+    color: orange;
+  }
+  #footer{
+    color: white;
+    font-size: 24px;
+    background-color: black;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+  }
+
+  #actor,#quote{
+    margin: 50px;
+  }
